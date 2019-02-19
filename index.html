@@ -3,6 +3,7 @@
 
     <head>
       <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" type='text/css' href="assets/css/style.css">
       <title>Matthew Sauermilch</title>
@@ -10,42 +11,39 @@
 
     <body>
       <container>
-        <div class="border-bottom masthead">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                 <div class="col-6 mx-auto nameholder">
-                   <div class="col-9 mx-auto name">Matthew Sauermilch</div>
-                  </div>
+        <!--Nav Bar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+          <div class="col-9 mx-auto nameholder">
+            <div class="col-sm-9 mx-auto name">Matthew Sauermilch</div>
+           </div>
+          <!--dropdown-->
+          <button class="col-sm-12 mt-2 navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+              </button>
+                        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto pl-15">
 
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                      </button>
-                          
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto pl-15">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
 
-                        <li class="nav-item">
-                          <a class="nav-link" href="index.html">About</a>
-                        </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
 
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                </li>
 
-                        <li class="nav-item">
-                          <a class="nav-link" href="Portfolio.html">Portfolio</a>
-                        </li>
-
-                        </ul>
-                      </div>
-                </nav>
-            </div>
-        </div>
-
+                </ul>
+              </div>
+        </nav>
         <div class="row m-4 justify-content-center">
-          <div class="col-8 content">
+          <div class="col-lg-8 col-sm-12 content">
 
-            <div class="col-12 mb-3 p-2 contentheader">About Me</div>
-            <img src="assets/images/Self_1.jpg" class="rounded" ALIGN="left"><!--try to align in css-->
+            <div class="col-12 mt-5 mb-3 p-2 contentheader">About Me</div>
+            <img src="assets/images/Self_1.jpg" class="rounded col-sm-6" ALIGN="left"><!--try to align in css-->
 
             <p>Hello! I'm Matt and welcome to my page. In my life I have followed many paths. From high school I attended
                 the Glassel School of Art at the Museum of Fine Art which took me from Houston, TX to Chicago, IL to Attend 
@@ -67,7 +65,7 @@
           </div>
         </div>
 
-          <div class="col-12 footer ">copyright &copy;</div>
+          <div class="col-12 footer">copyright &copy;</div>
       </container>
     </body>
   </html>
